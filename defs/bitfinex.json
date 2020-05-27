@@ -1,0 +1,15 @@
+{
+  "book": {
+    "pair": "pair",
+    "price": "price",
+    "count": "int",
+    "size": "size"
+  },
+  "trades": {
+    "pair": "pair",
+    "orderId": "int",
+    "price": "price",
+    "timestamp": "timestamp",
+    "size": "size"
+  }
+}
