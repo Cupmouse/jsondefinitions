@@ -1,12 +1,12 @@
 {
   "book": {
-    "pair": "pair",
+    "symbol": "symbol",
     "price": "price",
     "count": "int",
     "size": "size"
   },
   "trades": {
-    "pair": "pair",
+    "symbol": "symbol",
     "orderId": "int",
     "price": "price",
     "timestamp": "timestamp",

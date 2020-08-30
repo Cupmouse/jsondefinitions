@@ -1,11 +1,11 @@
 {
   "board": {
-    "pair": "pair",
+    "symbol": "symbol",
     "price": "price",
     "size": "size"
   },
   "executions": {
-    "pair": "pair",
+    "symbol": "symbol",
     "price": "price",
     "size": "size"
   },

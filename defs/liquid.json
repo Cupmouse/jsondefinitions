@@ -1,0 +1,14 @@
+ {
+    "executionsCash": {
+        "symbol": "symbol",
+        "createdAt": "timestamp",
+        "id": "int",
+        "price": "price",
+        "size": "size"
+    },
+    "priceLaddersCash": {
+        "symbol": "symbol",
+        "price": "price",
+        "size": "size"
+    }
+ }

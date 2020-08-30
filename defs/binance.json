@@ -1,0 +1,23 @@
+{
+  "depth": {
+    "symbol": "symbol",
+    "price": "price",
+    "size": "size"
+  },
+  "rest_depth": {
+    "symbol": "symbol",
+    "orderId": "int",
+    "price": "price",
+    "size": "size"
+  },
+  "trade": {
+    "symbol": "symbol",
+    "price": "price",
+    "timestamp": "timestamp",
+    "size": "size",
+    "tradeID": "int",
+    "buyerOrderID": "int",
+    "sellterOrderID": "int",
+    "eventtime": "timestamp"
+  }
+}

@@ -1,12 +1,12 @@
 {
 	"orderBookL2": {
-		"pair": "pair",
+		"symbol": "symbol",
 		"price": "price",
 		"id": "int",
 		"size": "size"
 	},
 	"trade": {
-		"pair": "pair",
+		"symbol": "symbol",
 		"price": "price",
 		"size": "size",
 		"timestamp": "timestamp",
@@ -17,7 +17,7 @@
 		"foreignNotional": "float|null"
 	},
 	"instrument": {
-		"symbol": "string",
+		"symbol": "symbol",
 		"rootSymbol": "string|null",
 		"state": "string|null",
 		"typ": "string|null",
@@ -128,14 +128,14 @@
 	},
 	"funding": {
 		"timestamp": "timestamp",
-		"symbol": "string",
+		"symbol": "symbol",
 		"fundingInterval": "duration",
 		"fundingRate": "float",
 		"fundingRateDaily": "float"
 	},
 	"settlement": {
 		"timestamp": "timestamp",
-		"symbol": "string",
+		"symbol": "symbol",
 		"settlementType": "string",
 		"settledPrice": "float",
 		"optionStrikePrice": "float",
@@ -146,7 +146,7 @@
 	},
 	"liquidation": {
 		"orderID": "guid",
-		"symbol": "string",
+		"symbol": "symbol",
 		"side": "string",
 		"price": "float",
 		"leavesQty": "int"

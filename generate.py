@@ -7,7 +7,7 @@ GO_DIR = "out/go/"
 defs = dict()
 
 GO_TYPE_TABLE = dict(
-    pair="string",
+    symbol="string",
     price="float64",
     size="float64",
     guid="string",
