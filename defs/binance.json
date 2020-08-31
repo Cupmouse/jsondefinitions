@@ -1,5 +1,6 @@
 {
   "depth": {
+    "eventTime": "timestamp",
     "symbol": "symbol",
     "price": "price",
     "size": "size"
@@ -18,6 +19,30 @@
     "tradeID": "int",
     "buyerOrderID": "int",
     "sellterOrderID": "int",
-    "eventtime": "timestamp"
+    "eventTime": "timestamp"
+  },
+  "ticker": {
+    "eventTime": "timestamp",
+    "symbol": "symbol",
+    "priceChange": "float",
+    "priceChanePercent": "float",
+    "weightedAveragePrice": "float",
+    "firstTradePrice": "float",
+    "lastPrice": "float",
+    "lastQuantity": "float",
+    "bestBidPrice": "float",
+    "bestBidQuantity": "float",
+    "bestAskPrice": "float",
+    "bestAskQuantity": "float",
+    "openPrice": "float",
+    "highPrice": "float",
+    "lowPrice": "float",
+    "totalTradedBaseAssetVolume": "float",
+    "totalTradedQuoteAssetVolume": "float",
+    "statisticsOpenTime": "timestamp",
+    "statisticsCloseTime": "timestamp",
+    "firstTradeID": "int",
+    "lastTradeID": "int",
+    "totalNumberOfTrades": "int"
   }
 }
