@@ -3,6 +3,7 @@
     "symbol": "symbol",
     "price": "price",
     "count": "int",
+    "side": "side",
     "size": "size"
   },
   "trades": {
@@ -10,6 +11,7 @@
     "orderId": "int",
     "price": "price",
     "timestamp": "timestamp",
+    "side": "side",
     "size": "size"
   }
 }

@@ -9,6 +9,7 @@ defs = dict()
 GO_TYPE_TABLE = dict(
     symbol="string",
     price="float64",
+    side="string",
     size="float64",
     guid="string",
     timestamp="string",

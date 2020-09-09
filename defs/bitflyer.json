@@ -2,11 +2,13 @@
   "board": {
     "symbol": "symbol",
     "price": "price",
+    "side": "side",
     "size": "size"
   },
   "executions": {
     "symbol": "symbol",
     "price": "price",
+    "side": "side",
     "size": "size"
   },
   "ticker": {

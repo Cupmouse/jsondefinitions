@@ -3,18 +3,20 @@
     "eventTime": "timestamp",
     "symbol": "symbol",
     "price": "price",
+    "side": "side",
     "size": "size"
   },
   "rest_depth": {
     "symbol": "symbol",
-    "orderId": "int",
     "price": "price",
+    "side": "side",
     "size": "size"
   },
   "trade": {
     "symbol": "symbol",
     "price": "price",
     "timestamp": "timestamp",
+    "side": "side",
     "size": "size",
     "tradeID": "int",
     "buyerOrderID": "int",
